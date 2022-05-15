@@ -106,7 +106,7 @@ async function run() {
         return res.status(403).send({message : "Email not match"})
 
       }
-      // console.log(email)
+      console.log(email)
 
       
     });
